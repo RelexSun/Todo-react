@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;700&family=Inter:wght@400;700;800&display=swap');
+
+:root {
+  --Midnight-Blue : #171738;
+  --Dark-Slate-Blue : #2C2C4A;
+  --Light-Gray : #D9D9D9;
+
+  --Aqua-Haze : #8EF9F3;
+  --Kelly-Green: #00A642;
+  --Cinnabar-Red : #D33636;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+  overflow-wrap: break-word;
+}
+
+body {
+  max-width: 1440px;
+  min-width: 375px;
+  min-height: 100vh;
+  background-color: var(--Midnight-Blue);
+  margin: 0 auto;
+}
+
+p {
+  color: var(--Light-Gray);
+}
+
+input {
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: solid .1rem;
+}
+
+button{
+  border-radius: 100px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  border: none;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+ul::-webkit-scrollbar {
+  width: 5px;
+}
+

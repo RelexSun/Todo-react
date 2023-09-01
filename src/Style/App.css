@@ -1,0 +1,18 @@
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.app {
+  padding: 2em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--Light-Gray);
+  font-size: 48px;
+  width: 100%;
+  margin-bottom: 1em;
+}

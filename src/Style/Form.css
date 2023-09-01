@@ -1,0 +1,39 @@
+/* ================ form ===================== */
+
+.form {
+  background-color: rgba(255,255,255,0.3);
+  transition: ease-in-out .2s;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5em;
+  padding: .5em 0 .5em 1em;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.form:hover {
+  transform: translateY(-5px);
+}
+
+.input-form {
+  width: 100%;
+  padding-left: 1em;
+  border: none;
+}
+
+.plus-button {
+  min-height: 40px;
+  width: 55px;
+  cursor: pointer;
+  background-color: #dbdbdb;
+  margin: 0 .5em;
+}
+
+.button-form {
+  font-size: 2.5em;
+  margin-top: .1em;
+  color: rgba(255,255,255,1);
+}

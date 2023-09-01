@@ -1,0 +1,45 @@
+/* ================= plist =============== */
+
+.ul-container {
+  margin-top: 2em;
+}
+
+.toggle {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  cursor: pointer;
+}
+
+.toggle-switch {
+  color: var(--Light-Gray);
+}
+
+.show {
+  margin-top: .5em;
+  transform: rotate(0deg);
+  transition: ease-in-out .2s;
+}
+
+.hide {
+  margin-top: .5em;
+  transform: rotate(180deg);
+  transition: ease-in-out .2s;
+}
+.hidden {
+  height: 0;
+  overflow: hidden;
+  transition: ease-in-out .3s;
+}
+
+.shown {
+  height: 500px;
+  overflow-y: scroll;
+  transition: ease-in-out .3s;
+}
+
+.line-break {
+  border-bottom: solid white .1rem;
+  opacity: .3;
+}
